@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Exo:100,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="swim.css">
+
+
+  <script type="text/javascript">
+  function altRows(id){
+  	if(document.getElementsByTagName){
+
+  		var table = document.getElementById(id);
+  		var rows = table.getElementsByTagName("tr");
+
+  		for(i = 0; i < rows.length; i++){
+  			if(i % 2 == 0){
+  				rows[i].className = "evenrowcolor";
+  			}else{
+  				rows[i].className = "oddrowcolor";
+  			}
+  		}
+  	}
+  }
+
+  window.onload=function(){
+  	altRows('alternatecolor');
+  }
+  </script>
+</head>
+<html>
+<body>
+  <div id='cssmenu'>
+  <ul>
+     <li class='active '><a href='index.html'><span>Home</span></a></li>
+     <li class='has-sub '><a href='products.html'><span>Products</span></a>
+        <ul>
+           <li><a href='products/swim_suits.html'><span>Swim Suits</span></a></li>
+           <li><a href='products/bottoms.html'><span>Bottoms</span></a></li>
+           <li><a href='products/coverups.html'><span>Coverups</span></a></li>
+           <li><a href='products/hats_and_scarves.html'><span>Hat/Scarves</span></a></li>
+           <li><a href='gallery.html'><span>Gallery</span></a></li>
+           <li><a href='products/towels.html'><span>Towels</span></a></li>
+           <li><a href='products/bags.html'><span>Bags</span></a></li>
+           <li><a href='products/slippers.html'><span>Slippers</span></a></li>
+           <li><a href='products/body_care.html'><span>Body Care</span></a></li>
+           <li><a href='products/lotions.html'><span>Lotions</span></a></li>
+        </ul>
+     </li>
+     <li><a href='gallery.html'><span>Gallery</span></a></li>
+     <li><a href='legal.html'><span>Legal</span></a></li>
+     <li><a href='blog.html'><span>Blog</span></a></li>
+     <li><a href='videos.html'><span>Videos</span></a></li>
+     <li><a href='sizing.html'><span>Sizing</span></a></li>
+     <li><a href='about.html'><span>About</span></a></li>
+     <li><a href='contact.html'><span>Contact</span></a></li>
+  </ul>
+  </div>
+
+<h1 id="sizing_header">FIND YOUR SIZE:</h1>
+
+<p class="sizing_headline">Our styles fit the body comfortably for a modest but fashionable look.</p>
+
+<table class="altrowstable" id="alternatecolor">
+<tr>
+	<th id="first_header"></th><th>S</th><th>M</th><th>L</th>
+</tr>
+<tr>
+	<td>Size</td><td>6</td><td>8-10</td><td>12</td>
+</tr>
+<tr>
+	<td>Bust</td><td>36</td><td>37.5</td><td>40</td>
+</tr>
+</tr>
+<tr>
+	<td>Waist</td><td>28</td><td>29.5</td><td>32</td>
+</tr>
+<tr>
+	<td>Low Waist</td><td>32</td><td>33.5</td><td>36</td>
+</tr>
+<tr>
+	<td>Hip</td><td>38</td><td>39.5</td><td>42</td>
+</tr>
+<tr>
+	<td>Inseam</td><td>34</td><td>34</td><td>34</td>
+</tr>
+</table>
+
+<div class="nava_div">
+<h1 class="home_page_nava">NAVA SwimWear</h1>
+</div>
+
+</body>
+</html>
+
